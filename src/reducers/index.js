@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
-import LibraryReducer from './LibraryReducer';
+import PostsReducer from './PostsReducer';
 
 export default combineReducers({
-  libraries: LibraryReducer
+  posts: PostsReducer
 });

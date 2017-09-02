@@ -4,6 +4,7 @@ import { View } from 'react-native';
 const Card = (props) => {
   return (
     <View style={styles.containerStyle}>
+      //childrenって何だっけ？
       {props.children}
     </View>
   );
